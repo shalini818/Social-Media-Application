@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: rgb(243, 240, 237);
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(173, 237, 215);
+    text-align: center;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#msg {
+    color: red;
+}
